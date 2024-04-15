@@ -1,0 +1,28 @@
+.Input {
+  box-sizing: border-box;
+}
+
+.Input-email,
+.Input-name,
+.Input-phone {
+  width: 280px;
+  height: 20px;
+  padding: 10px;
+}
+.Input-pass1,
+.Input-pass2 {
+  padding: 10px;
+  height: 20px;
+  width: 80%;
+}
+.Forgot-password {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.check-password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
