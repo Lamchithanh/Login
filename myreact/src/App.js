@@ -1,13 +1,11 @@
-import React from "react";
-import Layout from "./component/Login/Layout";
-import LayoutSign from "./component/SignUp/LayoutSign";
+import React from 'react';
+import NavOption from './js/NavOption';
 
 const App = () => {
+
   return (
-    <div className="login">
-      <Layout></Layout>
-      <LayoutSign></LayoutSign>
-    </div>
+    <NavOption></NavOption>
+  
   );
 };
 
